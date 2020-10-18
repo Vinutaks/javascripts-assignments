@@ -36,3 +36,22 @@ function Do_While_Loop()
 		} while ( false );
 		console.log(alert);
 }
+function Break_Continue()
+{
+	for ( var i = 0; i < 10; i ++) {
+		if( i==3) {
+	  break ;
+   }
+   
+  }
+  
+  for ( var i = 0; i < 10; i ++) {
+	if ( i==3 ) {
+	continue ;
+	}
+	// The following statement will only be executed
+	// if the conditional ’something ’ has not been met
+	console.log('I have been reached');
+}
+
+}
