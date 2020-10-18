@@ -62,3 +62,4 @@ function comparisonoperators()
 	foo <= baz ; // returns true
 	console.log(foo==baz);
 }
+
